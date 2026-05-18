@@ -1,0 +1,149 @@
+%-------------------------
+% Resume in LateX
+% Định hướng: IT Support / Helpdesk / System Administrator
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[utf8]{inputenc} % Hỗ trợ tiếng Việt
+\usepackage[vietnamese,english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % Xóa tất cả các trường header và footer
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Điều chỉnh lề
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Định dạng các mục (Sections)
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titrule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+%-------------------------
+% Các lệnh tùy chỉnh (Custom commands)
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small #3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+
+\begin{document}
+\selectlanguage{vietnamese}
+
+%----------THÔNG TIN CÁ NHÂN (HEADING)-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\Large NGUYỄN TRẦN NAM KHÁNH} & Email: \href{mailto:ntnkpg3d@gmail.com}{ntnkpg3d@gmail.com}\\
+  \href{https://github.com/khanh3993}{github.com/khanh3993} & Số điện thoại: \href{tel:+84917170738}{+84 917 17 07 38} \\
+  \textit{Định hướng nghề nghiệp: IT Support / Helpdesk / System Admin} & Địa chỉ: TP. Hồ Chí Minh, Việt Nam \\
+\end{tabular*}
+
+
+%-----------MỤC TIÊU NGHỀ NGHIỆP-----------------
+\section{Mục Tiêu Nghề Nghiệp}
+  \small{
+    Sinh viên năm 3 ngành Công nghệ Thông tin đam mê tìm hiểu cách thức vận hành, tối ưu hóa phần cứng, phần mềm và hạ tầng mạng máy tính doanh nghiệp. Sở hữu tư duy giải quyết sự cố kỹ thuật (troubleshooting) tốt cùng kỹ năng giao tiếp, hỗ trợ người dùng chuyên nghiệp. Mục tiêu ngắn hạn là cống hiến hết mình ở vị trí \textbf{Thực tập sinh/Chuyên viên IT Support/Helpdesk}, không ngừng trau dồi kiến thức hệ thống để phát triển thành \textbf{Quản trị viên hệ thống (System Administrator)} trong vòng 3 năm tới.
+  }
+
+
+%-----------HỌC VẤN (EDUCATION)-----------------
+\section{Học Vấn}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Trường Đại học Sư phạm TP. Hồ Chí Minh}{TP. Hồ Chí Minh, Việt Nam}
+      {Ngành Công nghệ Thông tin}{Niên khóa: 2023 -- 2027}
+  \resumeSubHeadingListEnd
+
+
+%-----------CHỨNG CHỈ & KHÓA HỌC (ĐỔI TỪ EXPERIENCE)-----------------
+\section{Chứng Chỉ \& Khóa Học}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Cisco Networking Academy (Cisco NetAcad)}{Trực tuyến}
+      {Chương trình đào tạo Chuyên viên Hỗ trợ Kỹ thuật IT}{Tháng 4/2026 -- Tháng 5/2026}
+      \resumeItemListStart
+        \resumeItem{IT Customer Support Basics}
+          {Nắm vững quy trình tiếp nhận, phân loại và xử lý yêu cầu hỗ trợ (Tickets) theo tiêu chuẩn dịch vụ IT. Rèn luyện kỹ năng lắng nghe chủ động, giao tiếp sư phạm kỹ thuật và quản lý kỳ vọng của người dùng cuối.}
+        \resumeItem{Hardware and Upgrade Support}
+          {Thành thạo kiến trúc phần cứng PC/Laptop. Có khả năng chẩn đoán, sửa lỗi linh kiện, thiết bị ngoại vi và triển khai nâng cấp phần cứng (RAM, SSD) tối ưu hiệu suất máy trạm doanh nghiệp.}
+        \resumeItem{Operating Systems Support}
+          {Làm chủ kỹ thuật cấu hình và xử lý sự cố trên các hệ điều hành Windows, Linux, macOS. Sử dụng thành thạo Command Line, Event Viewer, Registry để sửa lỗi xung đột phần mềm và driver.}
+        \resumeItem{Security and Connectivity Support}
+          {Cấu hình vững vàng địa chỉ IP, DHCP, DNS, LAN, Wi-Fi. Sử dụng tốt các công cụ kiểm tra mạng (ping, traceroute, ipconfig) để khắc phục lỗi mất kết nối; triển khai tường lửa và bảo mật Endpoint cơ bản.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------DỰ ÁN CÁ NHÂN (PROJECTS)-----------------
+\section{Dự Án Cá Nhân \& Thực Hành}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Hệ thống Active Directory \& Group Policy Lab}
+      {Triển khai mô hình Domain Controller ảo hóa (Windows Server 2022) quản lý tập trung tài khoản và phân quyền dữ liệu cho phòng ban (Kế toán, Nhân sự, IT). Áp dụng chính sách Group Policy để khóa cổng USB và cấu hình môi trường máy trạm Windows 10 an toàn. (Mã nguồn và tài liệu hướng dẫn chi tiết trên GitHub).}
+    \resumeSubItem{Thiết kế Hạ tầng Mạng Cisco Packet Tracer}
+      {Thiết kế và mô phỏng mô hình mạng nội bộ cho doanh nghiệp vừa và nhỏ. Cấu hình phân chia mạng ảo VLAN, định tuyến cơ bản, bảo mật Wi-Fi doanh nghiệp và thiết lập cấp phát địa chỉ IP tự động qua dịch vụ DHCP.}
+    \resumeSubItem{Bộ công cụ Cứu hộ Máy tính Đa năng}
+      {Tự tích hợp và tùy biến một phân vùng USB Boot chứa các công cụ cứu hộ, chẩn đoán lỗi phần cứng, sao lưu/phục hồi dữ liệu (Backup/Recovery) và các tập lệnh (Scripts) tự động cài đặt phần mềm hàng loạt.}
+  \resumeSubHeadingListEnd
+
+
+%-----------THÀNH TỰU & HOẠT ĐỘNG (ĐỔI TỪ SKILLS)-----------------
+\section{Thành Tựu \& Hoạt Động}
+  \resumeSubHeadingListStart
+    \item{
+      \textbf{Chứng nhận Báo cáo Chuyên sâu}{: Hoàn thành xuất sắc bài nghiên cứu "Mini-survey về công nghệ Quản trị thư mục tập trung Active Directory trong doanh nghiệp" thuộc học phần Thực hành nghề nghiệp.}
+    }
+    \vspace{-5pt}
+    \item{
+      \textbf{Hoạt động Tình nguyện / Đội nhóm}{: Tham gia Đội kỹ thuật hỗ trợ cài đặt phần mềm, vệ sinh và sửa chữa máy tính miễn phí cho sinh viên khóa dưới tại trường Đại học.}
+    }
+    \vspace{-5pt}
+    \item{
+      \textbf{Kỹ năng bổ trợ (Kỹ năng mềm)}{: Khả năng tự học và nghiên cứu tài liệu kỹ thuật bằng Tiếng Anh tốt; Kỹ năng làm việc nhóm, giao tiếp thuyết phục và chịu được áp lực cao trong môi trường hỗ trợ kỹ thuật.}
+    }
+  \resumeSubHeadingListEnd
+
+%-------------------------------------------
+\end{document}
